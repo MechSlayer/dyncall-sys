@@ -6,7 +6,7 @@ license = "Apache-2.0/MIT"
 readme = "README.md"
 description = "Raw C bindings for the dyncall libraries"
 repository = "https://github.com/MechSlayer/dyncall-sys"
-keywords = ["ffi", "c", "dyncall", "dyncallback", "dyn", "call"]
+keywords = ["ffi", "c", "dyncall", "dyncallback", "dynamic"]
 categories = ["ffi", "c"]
 
 
