@@ -43,14 +43,14 @@ fn main() {
     let dynload_header = include_dir.join("dynload.h");
 
     if INCLUDE_DYNCALL {
-        println!("cargo:rustc-link-lib=dyncall");
+        println!("cargo:rustc-link-lib=dyncall_s");
     }
 
     if INCLUDE_DYNCALLBACK {
-        println!("cargo:rustc-link-lib=dyncallback");
+        println!("cargo:rustc-link-lib=dyncallback_s");
     }
     if INCLUDE_DYNLOAD {
-        println!("cargo:rustc-link-lib=dynload");
+        println!("cargo:rustc-link-lib=dynload_s");
     }
 
     let bindings = bindgen::builder();
